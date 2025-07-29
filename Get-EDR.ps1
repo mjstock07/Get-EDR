@@ -1,5 +1,5 @@
 #requires -Version 5.0
-. "$(Join-Path $PSScriptRoot 'logger.ps1')"
+. "$(Join-Path $PSScriptRoot 'logger.psm1')"
 
 # Initialize logging
 Initialize-Logger -LogPath "$(Join-Path $PSScriptRoot 'logs/log.txt')" -LogLevel "Info"
