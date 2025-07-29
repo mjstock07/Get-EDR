@@ -41,6 +41,5 @@ $url_base = "https://fortixdrconnectna11.fortiedr.com/___/event-viewer/All/proce
 $url_investigation = "https://fortixdrconnectna11.fortiedr.com/investigation?&eventId=$eventNumber"
 
 Start-Process -FilePath $chromePath -ArgumentList $url_base, $url_investigation
-# Your script logic goes here
 
 Write-Log -Level Info -Message "Finished script Get-EDR"

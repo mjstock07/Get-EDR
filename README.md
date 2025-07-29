@@ -1,11 +1,11 @@
 # Get-EDR
+Script used to open chrome to the event ID. It will open both the Event Viewer and the Investigation window
 
-PowerShell script project with reusable logging module.
-
+Only works with the Event ID
 ## Usage
 
 ```powershell
-./Get-EDR.ps1
+./Get-EDR.ps1 123456789
 ```
 
 ## Structure
